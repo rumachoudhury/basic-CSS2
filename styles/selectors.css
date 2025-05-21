@@ -1,0 +1,44 @@
+* {
+   font-family: monospace;
+}
+
+body {
+   font-size: 16px;
+}
+
+
+h1 {
+   color: chocolate; 
+}
+
+.section1 {
+   border: 5px solid  red;
+   /* 20px for top, 5px for right, 10px for bottom, and 7px for left. */
+   margin: 20px 5px 10px 7px; 
+   padding: 10px 20px; 
+}
+
+.section2 {
+   border: 10px solid  green;
+   margin: 20px 5px 10px 7px; 
+   padding: 10px 20px; 
+}
+
+.section3 {
+   border: 15px solid  blue;
+   margin: 20px 5px 10px 7px; 
+   padding: 10px 20px; 
+}
+
+
+#section3-title {
+   color: darkgreen;
+   font-size: 80px;
+}
+
+/* (parent+children) */
+section p {
+   /* font-family: sans-serif; */
+   color: darkmagenta;
+   
+}

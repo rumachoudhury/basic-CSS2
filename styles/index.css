@@ -1,0 +1,167 @@
+*{
+    /* reset css */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: poppins sans-serif;
+    background-color: azure;
+    
+}
+
+.heading  {
+    color: #400bd2e7;
+    font-size: 40px;
+}
+
+.half-width {
+    float: left;
+    width: 40%;
+    margin-left: 5%;
+    padding-left: 2% ;
+}
+
+.half-width image{
+    width: 400%;
+    height: 400%;
+    
+}
+
+.top-banner {
+    background-image: url("../images2/back1.jpg");
+    background-repeat: no-repeat;
+    background-size:100px 200px ;
+}
+
+section{
+    height: 500px;
+    padding-bottom: 60px;
+}
+
+
+.button{
+    background-color:#400bd2e7 ;
+    color: white;
+    text-decoration: none;
+    padding: 6px 10px;
+    border-radius: 5px;
+    font-weight: 400px;
+}
+
+.mid-banner{
+    background-image: url("../images2/background.avif");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 200px 200px;
+}
+
+.bottom-banner{
+    font-size: 1rem;
+   
+}
+
+.experience-title {
+    box-shadow: 8px 8px 35px #400bd2e7;
+    border-radius: 8px;
+    /* height: 50%; */
+    height: 180px;
+    background-color: #dfe4ea;
+    border-top: 7px solid #400bd2e7 ;
+    
+}
+
+.purple-heading {
+    color: #400bd2e7;
+    font-size: 24px;
+    /* height: 20px; */
+    padding-top: 7px;
+}
+
+.experience-p{
+   margin-top: 7px;
+}
+
+.experience-heading{
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.card-title{
+    margin-bottom: 15px;
+    padding-top: 15px 
+       
+
+}
+
+/* footer section start here */
+.footer-section{
+    background-color: #1E2F60 ;
+    color: white;
+    padding: 20px;
+    height: 400px;
+   
+    
+    
+}
+.footer-main-div{
+    display:flex ;
+    /* flex-direction: column; */
+    justify-content: center;
+    gap: 40px;
+   
+}
+
+.footer-icon img {
+    height: 35px;
+    border-radius: 10px;
+}
+.footer-icon span{
+    display: flex;
+    justify-content: center;
+}
+
+.footer-icon a{
+    color: white;
+}
+
+.contact {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.footer-copyright{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    
+
+}
+
+.social-media {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    font-size: 24px;
+    
+}
+
+#fa-youtube {
+    color: red;
+}
+
+.fa-instagram {
+    color: fuchsia;
+}
+
+.fa-github {
+    color: white;
+}
+
+
+
+/* footer section end here */
+
